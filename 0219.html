@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testtttttt</title>
+	<meta charset="utf-8">
+	<style>
+		*{
+			color: darkblue;
+			font-size: 30px
+			font-family: "微軟黑正體", "sans-serif";
+		}
+		#font-blue{
+			color: blue;
+		}
+		.font-green{
+			color: green;
+		}
+		p{
+			color: orange;
+		}
+		div[title]{
+			color: black;
+		}
+
+	</style>
+</head>
+
+<body>
+	<p>文字內容</p>
+	<p title="反白浮現的字">文字內容2</p>
+	<hr>
+	<h1>標題</h1>
+	<h2>標題</h2>
+	<h3>標題</h3>
+	<h4>標題</h4>
+	<h5>標題</h5>
+	<h6>標題</h6>
+	<hr>
+	<br>
+	<b>粗體字</b>
+	<i>斜體字</i>
+	<u>底線</u>
+	<hr>
+	<ol>
+		<li>項目一
+			<ul>
+				<li>1</li>
+					<ol>
+						<li>a</li>
+					</ol>			
+				<li>2</li>
+			</ul>	
+			<ul>
+				<li>3</li>
+				<li>4</li>
+					<ol>
+						<li>b</li>
+					</ol>	
+				<li>5</li>
+			</ul>	
+			<ul>	
+				<li>6</li>
+				<li>7</li>
+					<ol>
+						<li>c</li>
+					</ol>	
+			</ul>			
+		</li>
+		<li>項目二
+			<ul>
+				<li>8</li>
+				<li>9</li>
+				<li>10</li>
+					<ol>
+						<li>d</li>
+					</ol>	
+			</ul>			
+			<ul>
+				<li>11</li>
+				<li>12</li>
+				<li>13</li>
+					<ol>
+						<li>e</li>
+					</ol>	
+			</ul>			
+		</li>				
+		<li>項目三</li>
+			<ul>
+				<li>14</li>
+			</ul>
+	</ol>
+	<hr>
+	<figure>
+	<img src="images\1.jpg" width="500" height="300" alt="圖片已被移除">
+	<figcaption>圖是擷取網路</figcaption>
+	</figure>
+	<hr>
+	<a href="https://www.youtube.com/">點我到Youtube</a>
+	<br>
+	<a href="mailto:vicky89080334@gmail.com">傳訊息給我~</a>
+	<br>
+	<a href="images\2.jpg" title="點我下載連結" download>
+		<img src="images\2.jpg" width="500" height="300" alt="圖片已被移除">
+	<br>
+	<a href="first.html">頁面A</a>
+	<a href="#first">連結一</a>
+	<a href="#second">連結二 </a>
+	<div id="first" class="block">目的1</div>	
+	<div id="second" class="block">目的2</div>	
+	<hr>
+	<table>
+		<tr>
+			<td colspan="7">10703031A 楊紫晴</td>
+		</tr>
+		<tr>
+			<td> 日 </td>
+			<td> 一 </td>
+			<td> 二 </td>
+			<td> 三 </td>
+			<td> 四 </td>
+			<td> 五 </td>
+			<td> 六 </td>
+		</tr>
+		<tr>
+			<td rowspan="5"> 周休 </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> 1 </td>
+			<td rowspan="5"> 二日 </td>
+		</tr>
+		<tr>
+			<td> 4 </td>
+			<td> 5 </td>
+			<td> 6 </td>
+			<td> 7 </td>
+			<td> 8 </td>
+		</tr>
+		<tr>
+			<td> 11 </td>
+			<td> 12 </td>
+			<td> 13 </td>
+			<td> 14 </td>
+			<td> 15 </td>
+		</tr>
+		<tr>
+			<td> 18 </td>
+			<td> 19 </td>
+			<td> 20 </td>
+			<td> 21 </td>
+			<td> 22 </td>
+		</tr>
+		<tr>
+			<td> 25 </td>
+			<td> 26 </td>
+			<td> 27 </td>
+			<td> 28 </td>
+			<td>  </td>
+		</tr>
+	</table>
+	<hr>
+	<form action method="get">
+		<fieldset>
+			問卷調查
+			<br><br>
+		<label>
+			  姓名:      
+			<input type="text" name="name" size="30" maxlength="50"  
+			placeholder="請輸入中文" 
+			required>
+		</label>
+		<br>
+		<label>
+			  信箱:   
+			<input type="email" name="email" size="30" maxlength="50" 
+			placeholder="請輸入完整的信箱" 
+			required>
+		</label>
+		<br>
+		<label for="birthday"> 生日:</label>
+		<input type="date" name="birthday" id="birthday">
+		<p>
+			<label for="hear-about">您從哪裡得知我們</label>
+			<select name="hear" id="hear-about">
+				<option value="web">網頁</option>
+				<option value="friend">朋友</option>
+				<option value="shop">商店</option>
+				<option value="other">其他</option>
+			</select>
+		</p>
+		<p>
+			<label> 是否會再度光臨? </label>
+			<label>
+			<input type="radio" name="comeback" value="yes">
+			會</label>
+			<label>
+			<input type="radio" name="comeback" value="no">
+			不會</label>
+			<label>
+			<input type="radio" name="comeback" value="maybe">
+			或許吧</label>
+		</p>
+		<label for="comments">寶貴意見: </label>
+		<br>
+		<textarea rows="4" cols="40" id="comments"></textarea>
+		<br>
+		<label type="checkbox" name="subscribe" checked="checked">是否訂閱最新消息</label>
+		<label for="serve">滿意度調查(0~10分): </label>
+		<input type="range" name="serve" id="serve" min="0" max="10">
+		 <br><br>
+		<input type="submit" value="送出">
+		</fieldset>
+		</form>
+		<hr>
+		<div>所有元素一開始為紅色</div>
+		<div id="font-blue">Id名稱為blue</div>
+		<p class="font-green">字體為綠色</p>
+		<hr>
+</body>
+</html>
