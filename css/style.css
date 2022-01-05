@@ -103,7 +103,7 @@ table {
 }
 
 .nav h1 a {
-    background-image: url(img/logo.png);
+    background-image: url("../img/logo.png");
     /* 需查看logo大小，因為a連結要當button用 */
     width: 170px;
     height: 36px;
@@ -139,7 +139,7 @@ table {
 .banner {
     height: 418px;
     width: 100%;
-    background-image: url(img/banner.png);
+    background-image: url("../img/banner.png");
     background-size: 100%;
     position: relative;
 }
@@ -308,7 +308,7 @@ table {
     padding: 0 20px 20px 20px;
 }
 .footer h1 a{
-    background-image: url(img/footer.png);
+    background-image: url("../img/footer.png");
     /* 需查看logo大小，因為a連結要當button用 */
     width: 170px;
     height: 36px;
